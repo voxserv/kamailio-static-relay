@@ -17,10 +17,10 @@ forwards SIP messages and RTP data in both directions.
 
 The following IP addresses and ports are used further in this document:
 
-Internal SIP server: `10.0.0.10:5060`
-Relay server's interface in internal network: `10.5.5.5:5060`
-Relay server's interface in external network: `192.0.2.5:5060`
-External SIP server: `198.51.100.100:5060`
+* Internal SIP server: `10.0.0.10:5060`
+* Relay server's interface in internal network: `10.5.5.5:5060`
+* Relay server's interface in external network: `192.0.2.5:5060`
+* External SIP server: `198.51.100.100:5060`
 
 
 When `10.0.0.10` needs to send a SIP call to `198.51.100.100`, it sends
