@@ -7,9 +7,10 @@ Introduction
 This project sponsored by BluePackets - http://www.bluepackets.com.au
 
 This is a Kamailio configuration that builds up a static SIP and RTP
-proxy and relays the packets between two IP interfaces on the server and
-two remote SIP servers. It allows to hide the internal network topology
-and go around some security or topology restrictions.
+proxy and relays the packets between two IP interfaces on the relay
+server and two remote SIP servers. It allows to hide the internal
+network topology and to go around some security or topology
+restrictions.
 
 The network topology consists of two segments: internal and
 external. The relay server has IP interfaces in both segments, and
