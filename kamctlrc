@@ -1,0 +1,7 @@
+## control engine: FIFO or UNIXSOCK
+## - default FIFO
+CTLENGINE="FIFO"
+
+## path to FIFO file
+FIFOPATH="/tmp/kamailio_fifo"
+
